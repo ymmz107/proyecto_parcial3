@@ -20,7 +20,7 @@
 
     $id = $_GET["id"];
 
-    $sql = "DELETE FROM usuariogp WHERE id=" . $id;
+    $sql = "DELETE FROM crear_cuenta WHERE id=" . $id;
 
     if($conexion->query($sql) === TRUE){
         echo "Se eliminó el registro con ID " .$id. "";

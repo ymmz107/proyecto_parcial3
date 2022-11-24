@@ -36,6 +36,10 @@
             margin-left: 400px;
 
         }
+        button{
+            margin-left: 158px;
+
+        }
     </style>
 </head>
 <body>
@@ -48,10 +52,11 @@
         </h1>
         </div>
         <p class="descripcion">
-         <br>el mismo día de su lanzamiento y consigue una suscripción a EA Play. Agregamos juegos <br>
-          constantemente,de modo que siempre tendrás algo nuevo a que jugar. Únete ahora para <br> conseguir tu primer mes por solo $10.
+         <br>m<br>
+         LAMBO <br> c.
         </p>
         <a href="registrarDatos.php"><button type="button" class="btn btn-success">Registrarse</button></a>
+         <a href="iniciarSesion.php"><button type="button" class="btn btn-success">Iniciar Sesion</button></a>
     </div>
 
 

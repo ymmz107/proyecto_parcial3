@@ -35,7 +35,10 @@
               <a class="nav-link" href="#">Comunidad</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="registrarDatos.php">Registarte</a>
+              <a class="nav-link" href="registrarDatos.php">Registrarte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iniciarSesion.php">Iniciar sesion</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
