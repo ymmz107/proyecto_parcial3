@@ -3,7 +3,7 @@
     $server = "localhost";
     $user = "root";
     $password = "";
-    $database = "xboxgamepass";
+    $database = "lamborghini";
 
     $conexion = new mysqli($server, $user, $password, $database);
 

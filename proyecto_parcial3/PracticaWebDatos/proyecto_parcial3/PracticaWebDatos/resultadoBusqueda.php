@@ -13,7 +13,7 @@
         include 'conexion.php';
         include 'menu.php';
 
-    ?>
+    ?> gametag
         <div class="container">
         <div class="row">
         <div class="col-12">
@@ -24,7 +24,7 @@
         <div class="alert alert-danger">No existen resultados con ese término de búsqueda</div><br><br>
         <a href="consultarDatos.php">Regresar</a>
     <?php } else { 
-        $sql = "SELECT * from usuariogp WHERE nombre LIKE '%" . $_GET["termino"] . "%'";
+        $sql = "SELECT * from crear_cuenta WHERE nombre LIKE '%" . $_GET["termino"] . "%'";
         $usuarios = $conexion->query($sql);
         if($usuarios->num_rows == 0) {
             echo "<br><div class='alert alert-danger'>No existen registros con ese término de búsqueda</div><br><br>";
@@ -44,7 +44,7 @@
                     <tr>
                         <td><?php echo $row["id"]; ?></td>
                         <td><?php echo $row["nombre"]; ?></td>
-                        <td><?php echo $row["gametag"]; ?></td>
+                        <td><?php echo $row["usuario"]; ?></td>
                         <td><?php echo $row["correo_electronico"]; ?></td>
                         <td><?php echo $row["contrasena"]; ?></td>
                         <td><?php echo $row["pais"]; ?></td>

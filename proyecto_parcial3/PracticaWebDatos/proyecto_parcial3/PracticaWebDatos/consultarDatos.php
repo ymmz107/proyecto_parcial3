@@ -17,7 +17,7 @@
 
     <?php
       include 'conexion.php';
-      $sql = "select * from usuariogp";
+      $sql = "select * from crear_cuenta";
       $datos = $conexion->query($sql);
 
     ?>
@@ -32,7 +32,7 @@
                         <tr>
                             <th>ID</th>
                             <th>Nombre</th>
-                            <th>Gametag</th>
+                            <th>Usuario</th>
                             <th>Correo Electronico</th>
                             <th>Contraseña</th>
                             <th>Pais</th>
@@ -47,7 +47,7 @@
                         <tr>
                             <td><?php echo $row["id"]; ?></td>
                             <td><?php echo $row["nombre"]; ?></td>
-                            <td><?php echo $row["gametag"]; ?></td>
+                            <td><?php echo $row["usuario"]; ?></td>
                             <td><?php echo $row["correo_electronico"]; ?></td>
                             <td><?php echo $row["contrasena"]; ?></td>
                             <td><?php echo $row["pais"]; ?></td>

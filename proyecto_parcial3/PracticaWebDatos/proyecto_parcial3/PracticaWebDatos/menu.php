@@ -34,9 +34,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Comunidad</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="registrarDatos.php">Registarte</a>
-            </li>
+           
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                 Opciones

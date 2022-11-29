@@ -27,7 +27,7 @@
     <?php
         include 'conexion.php';
         $id = $_GET["id"];
-        $sql = "SELECT * FROM usuariogp WHERE id=" . $id;
+        $sql = "SELECT * FROM crear_cuenta WHERE id=" . $id;
         $resultado = $conexion->query($sql);
         $registro = $resultado->fetch_assoc();
     ?>
@@ -47,7 +47,7 @@
 
                 <div class="form-group">
                     <label for="">Gametag:</label>
-                    <input value="<?php echo $registro["gametag"]; ?>" type="text" class="form-control" name="gametag">
+                    <input value="<?php echo $registro["usuario"]; ?>" type="text" class="form-control" name="usuario">
                 </div>
 
                 <div class="form-group">

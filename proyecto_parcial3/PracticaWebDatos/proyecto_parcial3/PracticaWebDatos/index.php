@@ -36,6 +36,11 @@
             margin-left: 400px;
 
         }
+        button{
+            margin-left: 158px;
+
+        }
+        
     </style>
 </head>
 <body>
@@ -47,12 +52,19 @@
             Lamborghini
         </h1>
         </div>
+        <div class="w-33">
+  <button>  
+    <a href="autosDisp.php"><button type="button" class="btn btn-success">Ver autos disponibles</button></a>
+  </button>
+</div>
         <p class="descripcion">
-         <br>e <br>
-          c <br> c.
+         <br><br>
+          <br> 
         </p>
         <a href="registrarDatos.php"><button type="button" class="btn btn-success">Registrarse</button></a>
-    </div>
+         <a href="iniciarSesion.php"><button type="button" class="btn btn-success">Iniciar Sesion</button></a>
+         
+        </div>
 
 
     <script src="js/bootstrap.js"></script>
