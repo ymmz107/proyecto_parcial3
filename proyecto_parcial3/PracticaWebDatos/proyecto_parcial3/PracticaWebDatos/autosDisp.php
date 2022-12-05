@@ -39,6 +39,9 @@
              y una aceleración de 0 a 100 km/h en 2,8 segundos, el Aventador SVJ regala emociones de conducción únicas y nunca antes experimentadas.</p>
              <form action="https://configurator.lamborghini.com/configurator/presets/MBV-22073-2023?lang=spa&country=mx">
         <input type="submit" value="Ir a configurador" />
+        <button>  
+    <a href="svj.php"><button type="button" class="btn btn-success">Comprar ya</button></a>
+  </button>
 </form>    
     </div>
     </div>
@@ -51,6 +54,9 @@
              también es mayor a la de sus rivales con 3,003 mm, permitiéndole tener un excelente espacio en el interior.</p>
              <form action="https://configurator.lamborghini.com/configurator/presets/MBV-24703-2023?lang=spa&country=mx">
         <input type="submit" value="Ir a configurador" />
+        <button>  
+    <a href="urus.php"><button type="button" class="btn btn-success">Comprar ya</button></a>
+  </button>
 </form>    </div>
     </div>
 
@@ -63,6 +69,9 @@
              en el Huracán más radical de la gama destacan su potente sonido y unos tactos muy directos.​</p>
              <form action="https://configurator.lamborghini.com/configurator/presets/MBV-22363-2023?lang=spa&country=mx">
         <input type="submit" value="Ir a configurador" />
+        <button>  
+    <a href="sto.php"><button type="button" class="btn btn-success">Comprar ya</button></a>
+  </button>
 </form>
     </div>
     </div>
